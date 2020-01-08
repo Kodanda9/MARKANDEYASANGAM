@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_gravity="center"
+    android:padding="@dimen/margin_x"
+    android:background="@drawable/back"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:padding="@dimen/margin_x"
+        android:background="@drawable/form_edit_text_bg"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/textView8"
+                    style="@style/LayoutHeadings"
+                    android:layout_weight="1"
+                    android:text="Enter OTP"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Invalid OTP"
+            android:textSize="@dimen/margin_2x"
+            android:visibility="gone"
+            android:textStyle="bold"
+            android:id="@+id/error6"
+            android:textColor="@color/material_red"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/padding_x2"/>
+
+        <EditText
+            android:id="@+id/phone"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:hint=""
+            android:inputType="" />
+        <LinearLayout
+            android:layout_marginLeft="@dimen/font_size"
+            android:layout_marginRight="50dp"
+            android:layout_width="match_parent"
+            android:layout_marginTop="@dimen/padding_x2"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tvNP"
+                style="@style/faiStyles"
+                android:layout_width="22dp"
+                android:text="@string/fai_phNo"
+                android:textColor="@color/insta_blue_bg" />
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:background="@drawable/draw_edittext_bg"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:id="@+id/otp"
+                    style="@style/TextInputLayoutStyle"
+                    android:hint="Enter OTP"
+                    android:inputType="number"
+                    android:maxLength="6"
+                    android:paddingLeft="@dimen/padding_x2"
+                    android:gravity="start|center_vertical" />
+
+            </android.support.design.widget.TextInputLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="@dimen/padding_x2"
+            android:layout_width="match_parent"
+            android:layout_marginRight="@dimen/font_size"
+            android:layout_marginLeft="@dimen/font_size"
+            android:layout_height="wrap_content">
+
+            <TextView
+                style="@style/faiStyles"
+                android:layout_width="22dp"
+                android:text="@string/fai_phNo"
+                android:textColor="@color/insta_blue_bg" />
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:background="@drawable/draw_edittext_bg"
+                android:layout_height="wrap_content">
+
+            </android.support.design.widget.TextInputLayout>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="103dp"
+            android:layout_height="37dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/margin_x"
+            android:background="@drawable/button_selector_1"
+            android:gravity="center"
+            android:padding="9dp"
+            android:text="Submit"
+            android:textAlignment="center"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/resendotp"
+            android:layout_width="126dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginTop="20dp"
+            android:text="Resend Otp"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:textStyle="italic" />
+    </LinearLayout>
+
+
+</LinearLayout>

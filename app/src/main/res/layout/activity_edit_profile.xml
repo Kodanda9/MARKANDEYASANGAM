@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@drawable/back"
+
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="15dp"
+    android:layout_height="match_parent"
+    tools:context=".activity.EditProfile">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Member Id      ::"
+            android:textColor="@color/black"
+            android:textSize="14dp" />
+        <TextView
+            android:padding="@dimen/margin_x"
+            android:layout_marginLeft="15dp"
+            android:textSize="17dp"
+            android:text=""
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/id"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:text="Surname         ::"
+            android:textColor="@color/black"
+            android:textSize="14dp" />
+
+        <EditText
+            android:id="@+id/surName"
+            android:layout_width="match_parent"
+            android:background="#f0f0f4"
+            android:padding="@dimen/margin_x"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_2x"
+            android:layout_marginRight="@dimen/margin_x"
+
+            android:text=""
+
+            android:textColor="@color/black"
+            android:textSize="14dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_marginTop="0dp"
+            android:textSize="14dp"
+            android:text="Name              ::"
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:textColor="@color/black"
+            android:textSize="14dp"
+            android:text=""
+            android:layout_marginLeft="@dimen/margin_2x"
+            android:layout_marginRight="@dimen/margin_x"
+
+            android:background="#f0f0f4"
+            android:padding="@dimen/margin_x"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/nameedit"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="30dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="0dp"
+            android:gravity="center"
+            android:text="Gender            ::"
+            android:textColor="@color/black"
+            android:textSize="14dp" />
+
+        <RadioGroup
+            android:id="@+id/genderedit"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/maleedit"
+                android:layout_width="97dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20sp"
+                android:text="Male" />
+
+            <RadioButton
+                android:id="@+id/femaleedit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20sp"
+                android:text="Female" />
+        </RadioGroup>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_marginTop="0dp"
+            android:textSize="14dp"
+            android:text="Blood Group  ::"
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Spinner
+            android:id="@+id/bloodedit"
+            android:layout_width="match_parent"
+            android:layout_height="22dp">
+
+        </Spinner>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="33dp"
+            android:layout_marginTop="0dp"
+            android:text="Mobile             ::"
+            android:textColor="@color/black"
+            android:textSize="14dp" />
+
+        <EditText
+            android:id="@+id/mobileedit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_2x"
+            android:layout_marginRight="@dimen/margin_x"
+
+            android:text=""
+            android:background="#f0f0f4"
+            android:padding="@dimen/margin_x"
+            android:textColor="@color/black"
+            android:textSize="14dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_marginTop="0dp"
+            android:textSize="14dp"
+            android:text="Email                ::"
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_2x"
+            android:layout_marginRight="@dimen/margin_x"
+
+            android:text=""
+            android:background="#f0f0f4"
+            android:padding="@dimen/margin_x"
+            android:textColor="@color/black"
+            android:textSize="14dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:text="Dob                  ::"
+            android:textColor="@color/black"
+            android:textSize="14dp" />
+
+        <EditText
+            android:id="@+id/dobedit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_2x"
+            android:layout_marginRight="@dimen/margin_x"
+
+            android:text=""
+            android:background="#f0f0f4"
+            android:padding="@dimen/margin_x"
+            android:textColor="@color/black"
+            android:textSize="14dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="0dp"
+            android:gravity="center"
+            android:text="Work                ::"
+            android:textColor="@color/black"
+            android:textSize="14dp" />
+
+        <Spinner
+            android:id="@+id/workedit"
+            android:layout_width="match_parent"
+            android:layout_height="35dp">
+
+        </Spinner>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_marginTop="0dp"
+            android:textSize="17dp"
+            android:text="Area             ::"
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/areaedit"
+            android:background="#f0f0f4"
+            android:padding="@dimen/margin_x"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_2x"
+            android:layout_marginRight="@dimen/margin_x"
+
+            android:text=""
+
+            android:textColor="@color/black"
+            android:textSize="14dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="0dp"
+            android:text="Address           ::"
+            android:textColor="@color/black"
+            android:textSize="14dp" />
+
+        <EditText
+            android:id="@+id/addressedit"
+            android:background="#f0f0f4"
+            android:padding="@dimen/margin_x"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_2x"
+            android:layout_marginRight="@dimen/margin_x"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="14dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="0dp"
+            android:gravity="center"
+            android:text="About You      ::"
+            android:textColor="@color/black"
+            android:textSize="14dp" />
+
+        <EditText
+            android:background="#f0f0f4"
+            android:padding="@dimen/margin_x"
+            android:id="@+id/aboutyouedit"
+            android:layout_width="match_parent"
+            android:layout_height="59dp"
+            android:layout_marginLeft="@dimen/margin_x"
+            android:layout_marginRight="@dimen/margin_x"
+
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="14dp" />
+    </LinearLayout>
+
+
+
+    <Button
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="20sp"
+        android:layout_marginLeft="90dp"
+        android:id="@+id/editsubmit"
+        android:layout_width="120dp"
+        android:textSize="14dp"
+        android:layout_height="60dp"
+        android:text="Save" />
+
+</LinearLayout>
+</ScrollView>

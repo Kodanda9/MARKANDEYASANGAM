@@ -1,0 +1,523 @@
+<ScrollView xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@drawable/back"
+    android:padding="@dimen/margin_x"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="@dimen/margin_x"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/memberphoto"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/logo" />
+        <TextView
+            android:layout_width="168dp"
+            android:layout_height="wrap_content"
+            android:text="Personal Details"
+            android:textColor="@color/black"
+            android:textSize="22dp"
+            android:textStyle="bold" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_2x"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/margin_x"
+                android:text="Member Id  :"
+                android:textSize="@dimen/margin_2x" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/id"
+                android:text=""
+                android:textColor="@color/black"
+                android:textSize="@dimen/margin_2x"/>
+
+        </LinearLayout>
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_x"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/margin_x"
+            android:text="Surname  :"
+            android:textSize="@dimen/margin_2x" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/surname1"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="@dimen/margin_2x"/>
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_x"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/margin_x"
+                android:text="Name  :"
+                android:textSize="@dimen/margin_2x" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/name"
+                android:textSize="@dimen/margin_2x"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_x"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mobile no  :"
+                android:textSize="@dimen/margin_2x"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/mobilenumber"
+                android:textSize="@dimen/margin_2x"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_x"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/margin_x"
+                android:text="Email  :"
+                android:textSize="@dimen/margin_2x" />
+
+            <TextView
+                android:id="@+id/email1"
+                android:layout_width="271dp"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/margin_2x" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_x"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/margin_x"
+                android:text="Gender  :"
+                android:textSize="@dimen/margin_2x" />
+
+            <TextView
+                android:id="@+id/gender1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/margin_2x" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_x"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:text="Member Status  :"
+                android:textSize="@dimen/margin_2x" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/memberstatus1"
+                android:textSize="@dimen/margin_2x"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_x"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:text="BloodGroup  :"
+                android:textSize="@dimen/margin_2x" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/bloodgroup1"
+                android:textSize="@dimen/margin_2x"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_x"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:text="District  :"
+                android:textSize="@dimen/margin_2x" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/district1"
+                android:textSize="@dimen/margin_2x"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_x"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/margin_x"
+                android:text="State  :"
+                android:textSize="@dimen/margin_2x" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/state1"
+                android:textSize="@dimen/margin_2x"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_x"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/margin_x"
+                android:text="Country  :"
+                android:textSize="@dimen/margin_2x" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/country1"
+                android:textSize="@dimen/margin_2x"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_x"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_marginLeft="@dimen/margin_x"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Work  :"
+                android:textSize="@dimen/margin_2x"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/work"
+                android:textSize="@dimen/margin_2x"/>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_x"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_marginLeft="@dimen/margin_x"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="Address  :"
+                android:textSize="@dimen/margin_2x" />
+
+            <TextView
+                android:id="@+id/address"
+                android:layout_width="match_parent"
+                android:layout_height="89dp"
+                android:textSize="@dimen/margin_2x" />
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Educational Details"
+            android:textColor="@color/black"
+            android:textSize="22dp"
+            android:textStyle="bold" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_x"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/margin_x"
+                android:text="Qualification  :"
+                android:textSize="@dimen/margin_2x" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/qualification"
+                android:text=""
+                android:textColor="@color/black"
+                android:textSize="@dimen/margin_2x"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_x"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/margin_x"
+                android:layout_gravity="center"
+                android:text="Qualification Details  :"
+                android:textSize="@dimen/margin_2x" />
+
+            <TextView
+                android:id="@+id/qualificationdetails"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="@color/black"
+                android:textSize="@dimen/margin_2x" />
+
+        </LinearLayout>
+        <TextView
+            android:layout_marginTop="@dimen/margin_3x"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Employement Details"
+            android:textColor="@color/black"
+            android:textSize="22dp"
+            android:textStyle="bold" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_x"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/margin_x"
+                android:layout_gravity="center"
+                android:text="Occupation  :"
+                android:textSize="@dimen/margin_2x" />
+
+            <TextView
+                android:id="@+id/occupation"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text=""
+                android:textColor="@color/black"
+                android:textSize="@dimen/margin_2x" />
+
+        </LinearLayout>
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_x"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/margin_x"
+            android:layout_gravity="center"
+            android:text="Designation  :"
+            android:textSize="@dimen/margin_2x" />
+
+        <TextView
+            android:id="@+id/designation"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="@dimen/margin_2x" />
+
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_x"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/margin_x"
+                android:layout_gravity="center"
+                android:text="Annual Income  :"
+                android:textSize="@dimen/margin_2x" />
+
+            <TextView
+                android:id="@+id/annualincomefix"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text=""
+                android:textColor="@color/black"
+                android:textSize="@dimen/margin_2x" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="@dimen/margin_2x"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_marginLeft="@dimen/margin_x"
+                android:textSize="@dimen/margin_2x"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Employement Details"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:textSize="@dimen/margin_2x"
+                android:id="@+id/employementdetailsfix"/>
+        </LinearLayout>
+        <TextView
+        android:layout_marginTop="@dimen/margin_x"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Business Details"
+        android:textColor="@color/black"
+        android:textSize="22dp"
+        android:textStyle="bold" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_x"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/margin_x"
+                android:layout_gravity="center"
+                android:text="Business Type  :"
+                android:textSize="@dimen/margin_2x" />
+
+            <TextView
+                android:id="@+id/bussenestype"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text=""
+                android:textColor="@color/black"
+                android:textSize="@dimen/margin_2x" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_x"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/margin_x"
+                android:layout_gravity="center"
+                android:text="Business Catagory  :"
+                android:textSize="@dimen/margin_2x" />
+
+            <TextView
+                android:id="@+id/bussenescatagory"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text=""
+                android:textColor="@color/black"
+                android:textSize="@dimen/margin_2x" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_x"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/margin_x"
+                android:layout_gravity="center"
+                android:text="Annual Income  :"
+                android:textSize="@dimen/margin_2x" />
+
+            <TextView
+                android:id="@+id/annualincomefixbusiness"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text=""
+                android:textColor="@color/black"
+                android:textSize="@dimen/margin_2x" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="@dimen/margin_x"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_marginLeft="@dimen/margin_x"
+                android:textSize="@dimen/margin_2x"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Business  Details"/>
+            <TextView
+
+                android:textSize="@dimen/margin_2x"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:id="@+id/businessdetailsfix"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

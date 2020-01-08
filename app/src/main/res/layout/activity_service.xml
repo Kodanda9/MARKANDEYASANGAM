@@ -1,0 +1,153 @@
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/margin_x"
+    android:paddingBottom="@dimen/margin_x"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:layout_gravity="center"
+        android:background="@drawable/back"
+        android:gravity="center"
+        android:text=" SERVICES"
+        android:textColor="@color/black"
+        android:textSize="@dimen/margin_3x"
+        android:textStyle="bold" />
+
+        <TextView
+            android:layout_marginTop="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="17dp"
+            android:layout_marginLeft="@dimen/padding_x"
+            android:textStyle="bold"
+            android:text="Presently we are working on following programs :"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/padding_x2"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14dp"
+            android:text=" 1 ."/>
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14dp"
+            android:text="We are gathering the information for preparing the Community - Directory. In this process we request all of our Padmashali members to Register in this website."/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/padding_x2"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14dp"
+            android:text=" 2 ."/>
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14dp"
+            android:text="We are providing Matrimony service for our community people, It is a FREE service."/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/padding_x2"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginLeft="@dimen/padding_x"
+            android:layout_marginTop="@dimen/font_size"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="17dp"
+            android:textStyle="bold"
+            android:text="Future plans on following programs:"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/padding_x2"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:layout_marginTop="20dp"
+            android:text=" 1 ."
+            android:textSize="14dp" />
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14dp"
+            android:text="Scholarships for merit students of our community.."/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/padding_x2"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:layout_marginTop="20dp"
+            android:text=" 2 ."
+            android:textSize="14dp" />
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14dp"
+            android:text="Health Checkups / Camps for our community people at their locations."/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/padding_x2"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:layout_marginTop="20dp"
+            android:text=" 3 ."
+            android:textSize="14dp" />
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14dp"
+            android:text="Career Guidance."/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+
+
+</LinearLayout>
+

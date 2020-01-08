@@ -1,0 +1,85 @@
+<ScrollView
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_marginRight="@dimen/margin_x"
+    android:layout_marginLeft="@dimen/font_size"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+        android:layout_marginLeft="@dimen/margin_x"
+        android:layout_marginTop="@dimen/margin_x"
+        android:layout_marginRight="@dimen/margin_x"
+    android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="224dp"
+            android:background="@drawable/back">
+
+            <ViewFlipper
+                android:id="@+id/view"
+                android:layout_width="200dp"
+                android:layout_height="180dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="80dp">
+
+            </ViewFlipper>
+        </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:layout_marginTop="@dimen/margin_x"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:text="WELCOME TO MARKANDEYA SANGAM"/>
+
+    <TextView
+        android:layout_marginTop="@dimen/font_size"
+        android:layout_width="match_parent"
+        android:textSize="13dp"
+        android:layout_height="wrap_content"
+        android:text="Markandeya is an ancient rishi (sage) from the Hindu tradition, born in the clan of Bhrigu Rishi."/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:textSize="13dp"
+
+        android:layout_height="wrap_content"
+        android:text="He is celebrated as a devotee of both Shiva and Vishnu and is mentioned in a number of stories from the Puranas. "/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:textSize="13dp"
+
+        android:layout_height="wrap_content"
+        android:text="The Markandeya Purana especially, comprises a dialogue between Markandeya and a sage called Jaimini, and a number of chapters in the Bhagavata Purana are dedicated to his conversations and prayers. He is also mentioned in the Mahabharata. Markandeya is venerated within all mainstream Hindu traditions."/>
+
+
+    <TextView
+        android:textSize="13dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Today, Markandeya Tirtha, where the sage Markandeya wrote the Markandeya Purana is situated on a trekking route to the Yamunotri Shrine in the Uttarkashi district, Uttarakhand."/>
+
+        <TextView
+            android:textSize="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""/>
+        <TextView
+            android:textSize="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""/>
+
+    </LinearLayout>
+
+</ScrollView>

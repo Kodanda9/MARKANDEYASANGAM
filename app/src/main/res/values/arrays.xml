@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="login_ids_array" >
+        <item>phonenumber</item>
+        <item>pswd</item>
+    </string-array>
+    <string-array name="login_errors_array" >
+        <item>Please Enter Mobile Number</item>
+        <item>Please Enter Password</item>
+    </string-array>
+    <string-array name="login_comptypes_array" >
+        <item>EditText</item>
+        <item>EditText</item>
+    </string-array>
+</resources>

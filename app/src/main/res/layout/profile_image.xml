@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="100dp"
+    android:layout_margin="4dp"
+    android:gravity="center">
+
+    <ImageView
+        android:id="@+id/profile_avatar"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerInParent="true"
+        android:contentDescription="select image"
+        android:src="@drawable/logo" />
+
+    <ImageView
+        android:id="@+id/camera_action"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_centerInParent="true"
+        android:contentDescription="camera_placeholder"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/ic_menu_camera" />
+</RelativeLayout>

@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">MARKANDEYA SANGAM</string>
+    <string name="title_activity_navigation">Home</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="About_us">About us</string>
+    <string name="fai_lock">&#xf13e;</string>
+    <string name="title">One legend relates the story of how Shiva protected Markandeya from the clutches of death, personified as Yama. </string>
+    <string name="title1">Mrikandu rishi and his wife Marudmati worshipped Shiva and sought from him the boon of begetting a son. As a result, he was given the choice of either a gifted son, but with a short life on earth or a child of low intelligence but with a long life. Mrikandu rishi chose the former, and was blessed with Markandeya, an exemplary son, destined to die at the age of 16. </string>
+    <string name="title2">Markandeya grew up to be a great devotee of Shiva and on the day of his destined death he continued his worship of Shiva in his aniconic form of Shivalingam. The messengers of Yama, the god of death were unable to take away his life because of his great devotion and continual worship of Shiva. Yama then came in person to take away Markandeya s life, and sprung his noose around the young sage s neck. By accident or fate the noose mistakenly landed around the Shivalingam, and out of it, Shiva emerged in all his fury attacking Yama for his act of aggression.After defeating Yama in battle to the point of death, Shiva then revived him, under the condition that the devout youth would live forever.
+ </string>
+    <string name="title3">For this act, Shiva was thereafter known also as Kalantaka ("Ender of Death"). This is believed to have happened in Thirukkadaiyur, Tamil Nadu.
+    As sourced from Sati Purana, a secret portion of Markandeya Purana, Goddess Parvati also gave him a boon to write a text on veer charitra (Fighting character) on her, the text is famously known as Durga Saptashati, a valuable portion in Markandeya Purana. The place is known as Yamkeshwar .
+    </string>
+    <string name="title4">Books to download and Read
+Markandeya Puranam Book in English
+Markandeya Puranamu Book in Telugu</string>
+    <string name="contact">Contact Us</string>
+    <string name="address">Address :</string>
+    <string name="email">Email</string>
+    <string name="contactus"></string>
+    <string name="fai_phNo">&#xf10b;</string>
+
+
+    <string name="cpet">
+    SRT Quaters, RTC X Roads, \n
+Hyderabad,TELANGANA, INDIA
+        \n Telephones : \n 040 40033369 \n
+
+        \n
+NOTE: We are providing FREE Service to our Members, Please dont call us.</string>
+    <string name="copy">©Copyright - Markandey Sangam. Developed by :</string>
+    <string name="title_activity_navigation1">NavigationActivity1</string>
+</resources>

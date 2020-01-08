@@ -1,0 +1,172 @@
+<LinearLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/margin_2x"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/margin_x2"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/contact"
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/font_size"
+            android:layout_marginRight="@dimen/font_size">
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/draw_edittext_bg">
+
+                <EditText
+                    android:id="@+id/edName1"
+                    style="@style/TextInputLayoutStyle"
+                    android:gravity="start|center_vertical"
+                    android:hint="Enter Name"
+                    android:inputType="text"
+                    android:paddingLeft="@dimen/padding_x2" />
+            </android.support.design.widget.TextInputLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="@dimen/padding_x2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/font_size"
+            android:layout_marginRight="@dimen/font_size">
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/draw_edittext_bg">
+
+                <EditText
+                    android:id="@+id/edphonenumber1"
+                    style="@style/TextInputLayoutStyle"
+                    android:gravity="start|center_vertical"
+                    android:hint="Enter Mobile Number"
+                    android:inputType="phone"
+                    android:maxLength="10"
+                    android:paddingLeft="@dimen/padding_x2" />
+            </android.support.design.widget.TextInputLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="@dimen/margin_x2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/font_size"
+            android:layout_marginRight="@dimen/font_size">
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/draw_edittext_bg">
+
+                <EditText
+                    android:layout_marginTop="@dimen/margin_x"
+                    android:id="@+id/edEmail1"
+                    style="@style/TextInputLayoutStyle"
+                    android:gravity="start|center_vertical"
+                    android:hint="Enter Email "
+                    android:inputType="textEmailAddress"
+                    android:paddingLeft="@dimen/padding_x2" />
+            </android.support.design.widget.TextInputLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="@dimen/margin_x2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/font_size"
+            android:layout_marginRight="@dimen/font_size">
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/draw_edittext_bg">
+
+                <EditText
+                    android:gravity="top|left"
+                    android:id="@+id/edmsg1"
+                    android:layout_marginTop="@dimen/padding_x2"
+                    style="@style/TextInputLayoutStyle"
+                    android:layout_height="90dp"
+                    android:hint="Write Your Question / Message "
+                    android:inputType="text|textMultiLine"
+                    android:maxLength="300"
+                    android:lines="15"
+                    android:maxLines="5"
+                    android:scrollHorizontally="false"
+                    android:scrollbars="vertical"
+                    android:paddingLeft="@dimen/padding_x2" />
+            </android.support.design.widget.TextInputLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        </LinearLayout>
+        <Button
+            android:layout_marginTop="@dimen/padding_x2"
+            android:layout_width="wrap_content"
+            android:text="SUBMIT"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/white"
+            android:layout_marginRight="@dimen/margin_2x"
+            android:id="@+id/contact_submit"
+            android:layout_gravity="end"
+            android:layout_height="40dp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_x"
+        android:text="@string/address"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="@dimen/margin_x">
+
+        <TextView
+            android:layout_marginTop="@dimen/margin_x"
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="171dp"
+            android:text="@string/cpet"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+
+    </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

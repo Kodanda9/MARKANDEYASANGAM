@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:iconTint="@color/white"
+        android:iconTintMode="multiply"
+        android:id="@+id/bottom_nav_home"
+        android:icon="@drawable/home"
+        android:title="Home" />
+    <item
+        android:iconTint="@color/white"
+        android:iconTintMode="multiply"
+        android:id="@+id/bottom_nav_member"
+        android:icon="@drawable/collaboration"
+        android:title="member" />
+    <item
+        android:iconTint="@color/white"
+        android:iconTintMode="multiply"
+        android:id="@+id/bottom_nav_profile"
+        android:icon="@drawable/man"
+        android:title="Profile" />
+    <item
+        android:iconTint="@color/white"
+        android:iconTintMode="multiply"
+        android:id="@+id/bottom_nav_search"
+        android:icon="@drawable/search"
+        android:title="search" />
+
+</menu>

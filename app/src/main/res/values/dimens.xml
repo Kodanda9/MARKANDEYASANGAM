@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="editTextHeight">30dp</dimen>
+    <dimen name="font_size">16dp</dimen>
+    <dimen name="spinnerHeight">30dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="margin_x">8dp</dimen>
+    <dimen name="TILMarginTD">5px</dimen>
+    <dimen name="TILMargin">10px</dimen>
+    <dimen name="view_width">1dp</dimen>
+    <dimen name="radioButtonText">9px</dimen>
+    <dimen name="radioButtonText1">12px</dimen>
+    <dimen name="radioButtonText2">20px</dimen>
+    <dimen name="radioButtonText3">30px</dimen>
+    <dimen name="radioButtonText4">80px</dimen>
+    <dimen name="margin_x2">4dp</dimen>
+    <dimen name="padding_x2">4dp</dimen>
+    <dimen name="margin_4x">30dp</dimen>
+    <dimen name="cardElevation">3dp</dimen>
+    <dimen name="layoutHeadings">20dp</dimen>
+    <dimen name="margin_2x">16dp</dimen>
+    <dimen name="padding_2x">16dp</dimen>
+    <dimen name="padding_x">8dp</dimen>
+    <dimen name="margin_3x">24dp</dimen>
+</resources>

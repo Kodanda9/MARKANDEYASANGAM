@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/back"
+    tools:context="com.cpetsolu.administrator.markandeyasangam.fragment.ProfileFragemnt">
+
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:id="@+id/llp"
+     android:layout_marginTop="20dp"
+     android:orientation="vertical"
+     android:layout_height="match_parent">
+
+     <ImageView
+         android:id="@+id/memberphoto"
+         android:layout_width="match_parent"
+         android:layout_height="162dp"
+         android:src="@drawable/logo" />
+
+     <TextView
+         android:id="@+id/editprofile"
+         android:layout_width="280dp"
+         android:layout_height="31dp"
+         android:layout_alignParentStart="true"
+         android:layout_alignParentLeft="true"
+         android:layout_alignParentTop="true"
+         android:layout_gravity="center"
+         android:layout_marginLeft="25dp"
+         android:layout_marginTop="25dp"
+         android:layout_marginRight="25dp"
+         android:background="@color/colorPrimary"
+         android:gravity="center"
+         android:text="Edit Profile"
+         android:textColor="@color/white"
+         android:textSize="15dp" />
+
+     <TextView
+         android:id="@+id/educationaldetails"
+         android:layout_width="280dp"
+         android:layout_height="35dp"
+         android:layout_alignParentStart="true"
+         android:layout_alignParentLeft="true"
+         android:layout_alignParentTop="true"
+         android:layout_gravity="center"
+         android:layout_marginTop="10dp"
+         android:background="@color/colorPrimary"
+         android:gravity="center"
+         android:text="Educational Details"
+         android:textColor="@color/white"
+         android:textSize="15dp" />
+
+     <TextView
+         android:id="@+id/employementdetails1"
+         android:layout_width="277dp"
+         android:layout_height="35dp"
+         android:layout_alignParentStart="true"
+         android:layout_alignParentLeft="true"
+         android:layout_alignParentTop="true"
+         android:layout_gravity="center"
+         android:layout_marginTop="10dp"
+         android:background="@color/colorPrimary"
+         android:gravity="center"
+         android:text="Employment Details"
+         android:textColor="@color/white"
+         android:textSize="15dp" />
+
+     <TextView
+         android:id="@+id/businessdetails1"
+         android:layout_width="283dp"
+         android:layout_height="35dp"
+         android:layout_alignParentStart="true"
+         android:layout_alignParentLeft="true"
+         android:layout_alignParentTop="true"
+         android:layout_gravity="center"
+         android:layout_marginTop="10dp"
+         android:background="@color/colorPrimary"
+         android:gravity="center"
+         android:text="Business Details"
+         android:textColor="@color/white"
+         android:textSize="15dp" />
+
+     <TextView
+         android:id="@+id/imageupload1"
+         android:layout_width="285dp"
+         android:layout_height="35dp"
+         android:layout_alignParentStart="true"
+         android:layout_alignParentLeft="true"
+         android:layout_alignParentTop="true"
+         android:layout_gravity="center"
+         android:layout_marginTop="10dp"
+         android:background="@color/colorPrimary"
+         android:gravity="center"
+         android:text="Upload Photo"
+         android:textColor="@color/white"
+         android:textSize="15dp" />
+
+ </LinearLayout>
+
+</FrameLayout>

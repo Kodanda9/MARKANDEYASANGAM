@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="Home" />
+        <item
+            android:id="@+id/navabout"
+            android:icon="@drawable/about"
+            android:title="AboutUs" />
+
+        <item
+            android:id="@+id/nav_service"
+            android:icon="@drawable/servicef"
+            android:title="Services" />
+        <item
+            android:id="@+id/nav_contactus"
+            android:icon="@drawable/contact"
+            android:title="ContactsUs" />
+        <item
+            android:id="@+id/nav_member"
+            android:icon="@drawable/contact"
+            android:title="Members" />
+
+        <item
+            android:id="@+id/nav_upload"
+            android:icon="@drawable/pic"
+            android:title="Upload Image" />
+
+        <item
+            android:id="@+id/nav_changepassword"
+            android:icon="@drawable/chhh"
+            android:title="ChangePassword" />
+        <item
+            android:id="@+id/nav_changenumber"
+            android:icon="@drawable/smartphone"
+            android:title="ChangeNumber" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/logout"
+            android:title="Logout" />
+
+
+
+
+
+</menu>
